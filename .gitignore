@@ -1,2 +1,2 @@
 *.pytest.cashe
-*Home_work/DS_Store
+.DS_Store
