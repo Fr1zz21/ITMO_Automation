@@ -1,2 +1,2 @@
 *.pytest.cashe
-*.DS_Store
+/ITMO_Automation/Home_work/.DS_Store
