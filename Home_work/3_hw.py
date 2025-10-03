@@ -1,4 +1,4 @@
-def zad_1():
+def function_1():
     a=int(input())
     b=int(input())
     if a>b:
@@ -7,22 +7,22 @@ def zad_1():
         print(b)
     else: 
         print("Они равны")
-zad_1()
+function_1()
 
 #---------------------------------------------------------------------------------------------------------
 
-def zad_2():
+def function_2():
     a=int(input())
     b=int(input())
     if a-b == 135 or b-a == 135:
         print('YES')
     else:
         print("NO")
-zad_2()
+function_2()
 
 #---------------------------------------------------------------------------------------------------------
 
-def zad_3():
+def function_3():
     a=int(input())
     if a > 12 or a < 1:
         print("Ошибка")
@@ -34,11 +34,11 @@ def zad_3():
         print("Лето")
     elif a == 9 or a == 10 or a == 11:
         print("Осень")
-zad_3()
+function_3()
 
 #---------------------------------------------------------------------------------------------------------
 
-def zad_4():
+def function_4():
     a=int(input())
     b=int(input())
     c=int(input())
@@ -46,16 +46,16 @@ def zad_4():
         print("yes")
     else:
         print("no")
-zad_4()
+function_4()
 #---------------------------------------------------------------------------------------------------------
 
-def zad_5():
-    mes=29
-    god=mes*12
+def function_5():
+    mounth=29
+    year=mounth*12
     a=int(input())
     b=int(input())
-    print(b*29+god*a)
-zad_5()
+    print(b*29+year*a)
+function_5()
 
 
 

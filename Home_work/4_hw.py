@@ -24,15 +24,15 @@ class Rectangle():
         self.h = h
         
 
-    def perimetr(self):
+    def perimeter(self):
         print('Периметр прямоугольника с шириной ' + str(self.a) + ' и высотой ' + str(self.h) + ' равен ', (self.a+self.h)*2 )
-    def ploshad(self):    
+    def area(self):    
         print('Площадь прямоугольника с шириной ' + str(self.a) + ' и высотой ' + str(self.h) + ' равен ', self.a*self.h)
 
-Znach = Rectangle()
+Result = Rectangle()
 
-Znach.perimetr()
-Znach.ploshad()
+Result.perimeter()
+Result.area()
 print("==================================================================================================")
 
 #-------------------------------------------------------------------------------------------------------
