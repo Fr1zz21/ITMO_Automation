@@ -1,0 +1,3 @@
+This is a plain‑text fixture used for the drag‑and‑drop file upload test.
+It contains a few lines of sample content so that we can verify that the
+file name is correctly displayed after the simulated drag‑drop operation.
